@@ -295,6 +295,10 @@ body {
     margin: 0;
 }
 
+.final {
+    display: block;
+}
+
 .final-text {
     font-family: 'Flower', serif;
     font-size: 1.5rem;
@@ -303,6 +307,10 @@ body {
     line-height: 2;
     padding-bottom: 100px;
     margin-bottom: 100px;
+}
+
+.final-mobile {
+    display: none;
 }
 
 @media screen and (max-device-width: 768px) {
@@ -322,8 +330,8 @@ body {
     .main-text {
         margin: auto;
         position: relative;
-        padding: 20px;
-        font-size: 0.8em;
+        padding: 25px;
+        font-size: 25px;
         text-align: center;
         margin-bottom: 100px;
     }
@@ -374,7 +382,7 @@ body {
         font-size: 20px;
     }
     .page4 {
-        font-size: 15px;
+        font-size: 20px;
         margin: 0;
     }
     #map {
@@ -387,10 +395,18 @@ body {
         line-height: 1.2;
     }
     .page5 {
-        font-size: 17px;
+        font-size: 20px;
     }
     .final-text {
-        font-size: 0.8em;
+        font-size: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .final {
+        display: none;
+    }
+    .final-mobile {
+        display: block;
     }
 }
 
