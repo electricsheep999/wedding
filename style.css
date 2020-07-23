@@ -318,6 +318,7 @@ body {
     .card {
         width: 90%;
         padding: 10px;
+        margin-bottom: 80px;
     }
     .title {
         font-size: 100px;
