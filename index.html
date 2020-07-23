@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link type="text/css" rel="stylesheet" media="screen" href="jquery-sakura.min.css" />
     <!-- Primary Meta Tags -->
     <title>결혼합니다</title>
     <meta name="title" content="장 희 록 & 김 성 용 결혼합니다">
@@ -146,6 +147,18 @@
         </div>
 
     </div>
+    <script src="jquery-sakura.min.js"></script>
+    <script>
+        // domReady
+        $(function() {
+            $('body').sakura();
+        });
+
+        // windowLoad
+        $(window).load(function() {
+            $('body').sakura();
+        });
+    </script>
 </body>
 
 </html>
