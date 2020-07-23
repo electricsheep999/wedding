@@ -411,6 +411,21 @@ body {
     .final-mobile {
         display: block;
     }
+    .fullwidth-gallery {
+        width: 100%;
+        height: auto;
+    }
+    .carousel-inner {
+        width: 100%;
+        height: auto !important;
+    }
+    #slide-image {
+        width: 100%;
+        height: auto !important;
+    }
+    .carousel {
+        height: auto;
+    }
 }
 
 
