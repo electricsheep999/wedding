@@ -34,6 +34,11 @@ body {
     margin-bottom: 0;
 }
 
+.main-img {
+    width: 100%;
+    position: relative;
+}
+
 .title {
     font-family: 'Nanum', serif;
     font-size: 5.5rem;
@@ -319,8 +324,7 @@ body {
 @media screen and (max-device-width: 768px),
 (max-width: 800px) {
     .card {
-        width: 90%;
-        padding: 10px;
+        width: 94%;
         margin-bottom: 80px;
     }
     .title {
@@ -332,6 +336,7 @@ body {
     .main-img {
         margin-bottom: 170px;
         width: 100%;
+        position: relative;
     }
     .main-text {
         margin: auto;
@@ -415,8 +420,7 @@ body {
         display: block;
     }
     .fullwidth-gallery {
-        width: 90%;
-        padding: 10px;
+        width: 94%;
         height: auto;
     }
     .carousel-inner {
@@ -429,6 +433,7 @@ body {
     }
     .carousel {
         height: auto;
+        width: 100%;
     }
 }
 
